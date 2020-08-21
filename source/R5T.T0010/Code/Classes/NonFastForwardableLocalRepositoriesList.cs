@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace R5T.T0010
 {
-    public class NonFastForwardableLocalRepositoriesList : LocalRepositoriesList
+    public class NonFastForwardableLocalRepositoriesList : LocalRepositoryDirectoryPathsList
     {
         public NonFastForwardableLocalRepositoriesList()
         {
