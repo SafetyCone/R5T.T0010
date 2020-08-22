@@ -8,6 +8,17 @@ namespace R5T.T0010
 {
     public class RemoteRepositoryUrlsList : TypedStringsList<RemoteRepositoryUrl>
     {
+        #region Static
+
+        public static RemoteRepositoryUrlsList New()
+        {
+            var remoteRepositoryUrlsList = new RemoteRepositoryUrlsList();
+            return remoteRepositoryUrlsList;
+        }
+
+        #endregion
+
+
         public List<RemoteRepositoryUrl> RemoteRepositoryUrls => this.Values;
 
 
