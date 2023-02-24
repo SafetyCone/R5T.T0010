@@ -2,9 +2,12 @@
 
 using R5T.Stagira;
 
+using R5T.T0150;
+
 
 namespace R5T.T0010
 {
+    [StrongTypeMarker]
     public class RepositoryName : TypedString
     {
         #region Static

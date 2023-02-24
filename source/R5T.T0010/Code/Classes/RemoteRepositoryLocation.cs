@@ -2,6 +2,8 @@
 
 using R5T.Stagira;
 
+using R5T.T0150;
+
 
 namespace R5T.T0010.Code.Classes
 {
@@ -10,6 +12,7 @@ namespace R5T.T0010.Code.Classes
     /// * https://github.com/SafetyCone/R5T.E0005.Private.git (HTTPS GitHub access)
     /// * git@github.com:SafetyCone/R5T.E0005.Private.git (SSH GitHub access)
     /// </summary>
+    [StrongTypeMarker]
     public class RemoteRepositoryLocation : TypedString
     {
         #region Static
